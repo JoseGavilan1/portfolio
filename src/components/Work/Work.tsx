@@ -1,7 +1,5 @@
 "use client"
 import { fadeIn } from "@/utils/motionTransitions"
-import { AvatarWorks } from "../AvatarWorks/AvatarWorks"
-import { Circle } from "../Circle"
 import { motion } from 'framer-motion'
 import { cardContent } from "./Work.data"
 import { useState } from "react"
@@ -26,8 +24,8 @@ export function Work() {
 
     return (
         <div className="h-screen">
-            <AvatarWorks />
-            <Circle />
+            
+            
             <div className="grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
                 <div>
                     <motion.h1

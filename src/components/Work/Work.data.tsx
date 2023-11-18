@@ -1,12 +1,12 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs,  SiVite, SiFramer, SiWordpress, SiJavascript, SiMysql, SiGooglecloud, SiPhp, SiPowerbi, SiDblp, SiPostgresql, SiSqlite, SiMicrosoftsqlserver } from "react-icons/si";
 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
+    title: "Ingreso de pacientes en veterinaria",
     description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+      "Formulario de pacientes de veterinaria en Vite, ReactJS, Tailwind CSS y LocalStorage",
+    imageUrl: "/work-1.jpg",
     skills: [
       {
         icon: <SiReact size="40" />
@@ -15,7 +15,10 @@ export const cardContent = [
         icon: <SiTailwindcss size="40" />
       },
       {
-        icon: <SiTestinglibrary size="40" />
+        icon: <SiVite size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
       },
     ]
   },
@@ -23,8 +26,8 @@ export const cardContent = [
     id: 1,
     title: "Portfolio React",
     description:
-      "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-2.jpeg",
+      "Portfolio personal con ReactJS, NextJS, Tailwind CSS y Framer Motion",
+    imageUrl: "/work-2.jpg",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -35,59 +38,67 @@ export const cardContent = [
       {
         icon: <SiGithub size="40" />
       },
+      {
+        icon: <SiReact size="40" />
+      },
+      {
+        icon: <SiFramer size="40"/>
+      }
     ]
   },
   {
     id: 2,
-    title: "Strapi",
+    title: "ArteConcrete",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-3.jpeg",
+      "Pagina Ecommerce hecha en Wordpress",
+    imageUrl: "/work-3.jpg",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiWordpress size="40" />
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiPhp size="40" />
       },
-      {
-        icon: <SiGithub size="40" />
-      },
+     
     ]
   },
   {
     id: 3,
-    title: "Prestashop",
+    title: "App Desktop Hormigones Transex",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-4.jpeg",
+      "Aplicacion Desktop hecha en Java, MySQL y Google Cloud",
+    imageUrl: "/work-4.jpg",
     skills: [
+    
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiMysql size="40" />
       },
       {
-        icon: <SiTailwindcss size="40" />
-      },
-      {
-        icon: <SiGithub size="40" />
+        icon: <SiGooglecloud size="40" />
       },
     ]
   },
   {
     id: 4,
-    title: "E-Commerce React",
+    title: "Informes de analitica de datos",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-5.jpeg",
+      "Variados informes de analitica de datos hecho en Power BI",
+    imageUrl: "/work-5.jpg",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiPowerbi size="40" />
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiMysql size="40" />
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiPostgresql size="40" />
+      },
+      {
+        icon: <SiSqlite size="40" />
+      },
+      {
+        icon: <SiMicrosoftsqlserver size="40" />
       },
     ]
   },

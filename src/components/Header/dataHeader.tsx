@@ -1,28 +1,18 @@
-import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine } from "react-icons/ri";
+import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine, RiLinkedinLine, RiLinkedinBoxLine, RiLinkedinBoxFill } from "react-icons/ri";
 
 export const socialNetworks = [
   {
     logo: <RiInstagramLine size="40" />,
-    src: "https://instagram.com/tarredev",
+    src: "https://instagram.com/stlvnz",
   },
-  {
-    logo: <RiYoutubeLine size="40" />,
-    src: "https://youtube.com/@tarredev",
-  },
-  {
-    logo: <RiTiktokLine size="40" />,
-    src: "https://tiktok.com/@tarredev",
-  },
-  {
-    logo: <RiPinterestLine size="40" />,
-    src: "https://pinterest.com/tarredev",
-  },
+  
   {
     logo: <RiTwitterXFill size="40" />,
-    src: "https://twitter.com/tarredev",
+    src: "https://twitter.com/JoseGavilan14",
   },
+  
   {
-    logo: <RiBehanceLine size="40" />,
-    src: "#!",
-  },
+    logo: <RiLinkedinBoxFill size="40"/>,
+    src: "https://www.linkedin.com/in/josé-gavilán-650683225/"
+  }
 ];

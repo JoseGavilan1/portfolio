@@ -1,29 +1,23 @@
 export const dataCounter = [
-  {
-    id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
-    lineRight: true,
-    lineRightMobile: true,
-  },
+  
   {
     id: 1,
-    endCounter: 80,
+    endCounter: 3,
     text: "Clientes satisfechos",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
+    endCounter: 2,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
+    endCounter: 6,
+    text: "Lenguajes de programacion",
     lineRight: false,
     lineRightMobile: false,
   },
@@ -32,58 +26,52 @@ export const dataCounter = [
 export const dataAboutSkills = [
   {
     id: 0,
+    text: "Estudios",
+    skills: [
+      {
+        title: "Enseñanza media, Instituto San Luis",
+        date: "2013-2017",
+      },
+      {
+        title: "Enseñanza superior, Ing. Civil en Computación e informática",
+        date: "2019-2024",
+      },
+      {
+        title:"Curso Udemy React.js",
+        date:"2023"
+      },
+      {
+        title:"Curso Udemy Power BI -Business Intelligence",
+        date:"2023"
+      }
+    ],
+  },
+
+  {
+    id: 1,
     text: "Skills",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "Desarrollador Full Stack Jr en formación",
+        date: "2023",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
-      },
-    ],
-  },
-  {
-    id: 1,
-    text: "Experiencia",
-    skills: [
-      {
-        title: "Netflix Inc.",
-        date: "2015",
-      },
-      {
-        title: "Amazon",
-        date: "2020",
+        title: "Data Analyst Jr",
+        date: "2022",
       },
     ],
   },
   {
     id: 2,
-    text: "Estudios",
+    text: "Experiencia",
     skills: [
       {
-        title: "Grado Universitario en Florida",
-        date: "2012-2016",
+        title: "Tanner Servicios Financieros S.A",
+        date: "2022",
       },
-      {
-        title: "Máster desarrollo Frontend",
-        date: "2016-2018",
-      },
+      
     ],
-  },
-  {
-    id: 3,
-    text: "Masters",
-    skills: [
-      {
-        title: "Frontend Developer",
-        date: "2017",
-      },
-      {
-        title: "Full Stack Developer",
-        date: "2020",
-      },
-    ],
-  },
+  }
+  
+  
 ];
