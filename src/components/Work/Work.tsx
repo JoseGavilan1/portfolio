@@ -34,7 +34,7 @@ export function Work() {
                         animate="show"
                         exit="hidden"
                         className="my-5 text-2xl text-center md:text-4-xl"
-                    >Mis últimos  <span className="text-secondary">trabajos realizados.</span>
+                    >Mis últimos  <span className="text-red-600">trabajos realizados.</span>
                     </motion.h1>
                     <motion.div
                         className="flex flex-col items-center h-full gap-5 px-2 md:flex-row"

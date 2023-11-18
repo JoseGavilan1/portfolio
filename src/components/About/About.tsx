@@ -19,7 +19,7 @@ export function About() {
                 animate={motionTransitionsAbout.animate}
                 transition={motionTransitionsAbout.transition}
             >
-                <h1 className="mb-6 md:text-4xl">Creando softwares y webs<br /> <span className="text-secondary">innovadoras y productivas.</span></h1>
+                <h1 className="mb-6 md:text-4xl">Creando softwares y webs<br /> <span className="text-red-600">innovadoras y productivas.</span></h1>
                 <p>Entusiasta por el diseño y creacion de sitios web, ademas de la analitica de datos empresarial. Estudiante de 5to año de ingenieria civil en computación e informática, con el deseo 
                     de seguir aprendiendo nuevas tecnologias en el mundo del desarrollo de software</p>
 
@@ -27,7 +27,7 @@ export function About() {
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
                         <div key={id} className={`${lineRight && 'ltr'}`}>
                             <div className={`${lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'} ${lineRightMobile && 'border-e-gray-100'}`}>
-                                <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-secondary">
+                                <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-red-600">
                                     + <CountUp end={endCounter} start={0} duration={5} />
                                 </p>
                                 <p className="text-xs uppercase max-w-[100px]">
@@ -44,7 +44,7 @@ export function About() {
 
                         return (
                             <div key={id}
-                                className={`${index === id ? 'text-secondary duration-300 transition-all border-secondary' : 'border-white'} 
+                                className={`${index === id ? 'text-red-600 duration-300 transition-all border-red-600' : 'border-white'} 
                                         cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-3`}
                                 onClick={() => setIndex(itemIndex)}
                             >
@@ -58,7 +58,7 @@ export function About() {
                         )
                     })}
                 </div>
-                <div className="max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl">
+                <div className="max-w-4xl p-4 mx-auto bg-red-600/20 rounded-xl">
                     {dataAboutSkills[index].skills.map((items, index) => (
                         <div key={index} className="flex justify-center max-w-md gap-4 mx-auto">
                             <span>{items.title} {" "} </span> - <span>{items.date}</span>

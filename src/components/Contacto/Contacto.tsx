@@ -14,7 +14,7 @@ export function Contacto() {
                         animate="show"
                         exit="hidden"
                     >
-                        ¿Cómo puedes <span className="text-secondary">contactarme?</span>
+                        ¿Cómo puedes <span className="text-red-600">contactarme?</span>
                     </motion.h1>
                     <motion.p
                         variants={fadeIn('up', 0.5)}
@@ -22,7 +22,7 @@ export function Contacto() {
                         animate="show"
                         exit="hidden"
                         className="max-w-md">Tienes mis redes sociales, pero además puedes contactarme a mi correo personal: 
-                        <span className="text-secondary"> gavilanhidalgojose@gmail.com</span>
+                        <span className="text-red-600"> gavilanhidalgojose@gmail.com</span>
                     </motion.p>
                     <motion.div/>
                 </div>

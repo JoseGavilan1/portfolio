@@ -21,8 +21,8 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
-                        <h1 className="mb-5 text-4xl leading-tight md:mb-10">En el mundo digital de hoy, aprender a programar es mas que una ventaja  <br />
-                            <span className="text-secondary">(es una necesidad).</span></h1>
+                        <h1 className="mb-5 text-4xl leading-tight md:mb-10"> Hola  <br />
+                            <span className="text-red-600">Mundo!</span></h1>
                         <p className="max-w-sm  mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
                             Te doy la bienvenida a mi portfolio de desarrollo de software!
                         </p>
@@ -31,7 +31,7 @@ export function Introduction() {
                             <a href="/works" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                                 Ve mis proyectos
                             </a>
-                            <a href="./contacto" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+                            <a href="./contacto" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-red-600 border-red-600 rounded-xl hover:shadow-xl hover:shadow-red-600">
                                 Contáctame por acá ;)
                             </a>
                         </div>

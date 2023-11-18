@@ -33,13 +33,13 @@ export function Slider() {
             {serviceData.map((item, index) => (
                 <SwiperSlide key={index}>
                     <div className="flex px-6 py-8 h-[200px]  md:h-auto rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 ">
-                        <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
+                        <div className="mb-4 text-4xl text-red-600">{item.icon}</div>
                         <div>
                             <h3>{item.title}</h3>
                             <p className="text-sm">{item.description}</p>
                         </div>
                         <div className="text-3xl">
-                            <RxArrowTopRight className="transition-all duration-300 group-hover:rotate-45 group-hover:text-secondary" />
+                            <RxArrowTopRight className="transition-all duration-300 group-hover:rotate-45 group-hover:text-red-600" />
                         </div>
                     </div>
                 </SwiperSlide>

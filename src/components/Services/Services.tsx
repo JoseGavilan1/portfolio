@@ -19,7 +19,7 @@ export function Services() {
                         animate="show"
                         exit="hidden"
                     >
-                        Tipos de <span className="text-secondary">servicios.</span>
+                        Tipos de <span className="text-red-600">servicios.</span>
                     </motion.h1>
                     <motion.p
                         variants={fadeIn('up', 0.5)}
