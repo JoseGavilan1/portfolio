@@ -13,7 +13,7 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
-                        <Image src="/assets/home-4.GIF" width="500" height="300" alt="Home GIF" />
+                        <Image src="/assets/home-4.png" width="500" height="300" alt="Home GIF" />
                     </motion.div>
 
                     <motion.div variants={fadeIn("left", 0.5)}
