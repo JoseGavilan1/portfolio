@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs,  SiVite, SiFramer, SiWordpress, SiJavascript, SiMysql, SiGooglecloud, SiPhp, SiPowerbi, SiDblp, SiPostgresql, SiSqlite, SiMicrosoftsqlserver } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs,  SiVite, SiFramer, SiWordpress, SiJavascript, SiMysql, SiGooglecloud, SiPhp, SiPowerbi, SiDblp, SiPostgresql, SiSqlite, SiMicrosoftsqlserver, SiLocal } from "react-icons/si";
 
 export const cardContent = [
   {
@@ -102,4 +102,19 @@ export const cardContent = [
       },
     ]
   },
+  {
+    id: 5,
+    title: "Planificador de gastos",
+    description:
+      "Organizador de gastos en React con Vite y LocalStorage",
+    imageUrl: "/work-6.png",
+    skills: [
+      {
+        icon: <SiReact size="40" />
+      },
+      {
+        icon: <SiVite size="40" />
+      }
+    ]
+  }
 ];
