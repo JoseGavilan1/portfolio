@@ -30,10 +30,10 @@ export const dataAboutSkills = [
     skills: [
       {
         title: "Enseñanza media, Instituto San Luis",
-        date: "2013-2017",
+        date: "2014-2017",
       },
       {
-        title: "Enseñanza superior, Ing. Civil en Computación e informática",
+        title: "Enseñanza superior, Ing. Civil en Computación e informática, Universidad Central",
         date: "2019-2024",
       },
       {
@@ -52,7 +52,7 @@ export const dataAboutSkills = [
     text: "Skills",
     skills: [
       {
-        title: "Desarrollador Full Stack Jr en formación",
+        title: "Desarrollador Frontend Jr",
         date: "2023",
       },
       {
