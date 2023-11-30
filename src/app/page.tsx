@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Portfolio José Gavilán',
-  description: 'Portfolio animated ',
+  description: 'Portfolio semiprofesional ',
 }
 
 

@@ -8,7 +8,7 @@ const prosto = Prosto_One({ subsets: ['latin'], weight: "400" })
 
 export const metadata: Metadata = {
   title: 'Portfolio JGavilan',
-  description: 'Portfolio animated',
+  description: 'Portfolio semiprofesional',
 }
 
 export default function RootLayout({
