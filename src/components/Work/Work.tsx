@@ -4,29 +4,34 @@ import { motion } from 'framer-motion'
 import { cardContent } from "./Work.data"
 import { useState } from "react"
 
+
+// ... (existing imports)
+
+// ... (existing imports)
+
 export function Work() {
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
     const handleClick = (index: number) => {
-        setExpandedIndex(index === expandedIndex ? -1 : index)
-    }
+        setExpandedIndex(index === expandedIndex ? -1 : index);
+    };
 
     const cardVariants = {
         expanded: {
-            width: "360px",
-            opacity: 1
+            height: "500px", // Establece una altura fija para las tarjetas expandidas
+            opacity: 1,
+            zIndex: 2,
         },
         collapsed: {
-            width: "200px",
-            opacity: 0.2
-        }
-    }
+            height: "400px", // Establece una altura fija para las tarjetas colapsadas
+            opacity: 0.2,
+            zIndex: 1,
+        },
+    };
 
     return (
         <div className="h-screen">
-            
-            
-            <div className="grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
+            <div className="pb-32 md:min-h-screen mt-28 md:mt-0 flex justify-center items-center">
                 <div>
                     <motion.h1
                         variants={fadeIn('left', 0.5)}
@@ -34,28 +39,32 @@ export function Work() {
                         animate="show"
                         exit="hidden"
                         className="my-5 text-2xl text-center md:text-4-xl"
-                    >Mis últimos  <span className="text-red-600">trabajos realizados.</span>
+                    >
+                        Mis últimos <span className="text-red-600">trabajos realizados.</span>
                     </motion.h1>
                     <motion.div
-                        className="flex flex-col items-center h-full gap-5 px-2 md:flex-row"
+                        className="flex flex-wrap justify-center gap-5"
                         variants={fadeIn('up', 0.5)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"
                     >
                         {cardContent.map(({ id, title, imageUrl, description, skills }) => (
-                            <motion.div key={id}
-                                className={`card cursor-pointer h-[400px] bg-auto bg-no-repeat bg-center rounded-[20px] ${id === expandedIndex && 'expanded'}`}
+                            <motion.div
+                                key={id}
+                                className={`card cursor-pointer bg-auto bg-no-repeat bg-center rounded-[20px] ${id ===
+                                    expandedIndex && 'expanded'}`}
                                 initial={{ opacity: 1 }}
                                 variants={cardVariants}
                                 animate={id === expandedIndex ? 'expanded' : 'collapsed'}
                                 exit={{
-                                    opacity: 1
+                                    opacity: 1,
                                 }}
                                 transition={{ duration: 0.5 }}
                                 onClick={() => handleClick(id)}
                                 style={{
-                                    backgroundImage: `url(/assets/${imageUrl})`
+                                    backgroundImage: `url(/assets/${imageUrl})`,
+                                    flex: '0 0 calc(20% - 10px)', // Ajusta el tamaño de las tarjetas
                                 }}
                             >
                                 <div className="flex flex-col justify-end h-full">
@@ -79,5 +88,5 @@ export function Work() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
