@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs,  SiVite, SiFramer, SiWordpress, SiJavascript, SiMysql, SiGooglecloud, SiPhp, SiPowerbi, SiDblp, SiPostgresql, SiSqlite, SiMicrosoftsqlserver, SiLocal } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs,  SiVite, SiFramer, SiWordpress, SiMysql, SiGooglecloud, SiPhp, SiPowerbi, SiDblp, SiPostgresql, SiSqlite, SiMicrosoftsqlserver, SiLocal } from "react-icons/si";
 
 export const cardContent = [
   {
@@ -114,6 +114,18 @@ export const cardContent = [
       },
       {
         icon: <SiVite size="40" />
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: "Cotizador de criptomonedas",
+    description:
+      "Cotizador con consulta a API de criptomonedas en React con Styled Components y Custom Hooks",
+    imageUrl: "/work-7.png",
+    skills: [
+      {
+        icon: <SiReact size="40" />
       }
     ]
   }
