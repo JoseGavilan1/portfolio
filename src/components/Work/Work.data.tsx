@@ -48,38 +48,6 @@ export const cardContent = [
   },
   {
     id: 2,
-    title: "ArteConcrete",
-    description:
-      "Pagina Ecommerce hecha en Wordpress",
-    imageUrl: "/work-3.jpg",
-    skills: [
-      {
-        icon: <SiWordpress size="40" />
-      },
-      {
-        icon: <SiPhp size="40" />
-      },
-     
-    ]
-  },
-  {
-    id: 3,
-    title: "App Desktop Hormigones Transex",
-    description:
-      "Aplicacion Desktop hecha en Java, MySQL y Google Cloud",
-    imageUrl: "/work-4.jpg",
-    skills: [
-    
-      {
-        icon: <SiMysql size="40" />
-      },
-      {
-        icon: <SiGooglecloud size="40" />
-      },
-    ]
-  },
-  {
-    id: 4,
     title: "Informes de analitica de datos",
     description:
       "Variados informes de analitica de datos hecho en Power BI",
@@ -103,7 +71,7 @@ export const cardContent = [
     ]
   },
   {
-    id: 5,
+    id: 3,
     title: "Planificador de gastos",
     description:
       "Organizador de gastos en React con Vite y LocalStorage",
@@ -118,7 +86,7 @@ export const cardContent = [
     ]
   },
   {
-    id: 6,
+    id: 4,
     title: "Cotizador de criptomonedas",
     description:
       "Cotizador con consulta a API de criptomonedas en React con Styled Components y Custom Hooks",
